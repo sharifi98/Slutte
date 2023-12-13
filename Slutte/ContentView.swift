@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWhatDoYouWantToQuitView: Bool = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button {
+                showWhatDoYouWantToQuitView.toggle()
+            } label: {
+                ZStack {
+                    Rectangle()
+                        .cornerRadius(25)
+                        .frame(width: 150, height: 50)
+                    Text("Slutte")
+                        .foregroundStyle(Color.white)
+                }
+            }
+            .sheet(isPresented: $showWhatDoYouWantToQuitView) {
+                WhatDoYouWantToQuitView()
+            }
         }
         .padding()
     }

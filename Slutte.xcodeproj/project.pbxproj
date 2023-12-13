@@ -11,6 +11,7 @@
 		033D15AB2B2A508D0021B825 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D15AA2B2A508D0021B825 /* ContentView.swift */; };
 		033D15AD2B2A508E0021B825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D15AC2B2A508E0021B825 /* Assets.xcassets */; };
 		033D15B12B2A508E0021B825 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D15B02B2A508E0021B825 /* Preview Assets.xcassets */; };
+		037495E12B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		033D15AC2B2A508E0021B825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033D15AE2B2A508E0021B825 /* Slutte.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slutte.entitlements; sourceTree = "<group>"; };
 		033D15B02B2A508E0021B825 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoYouWantToQuitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				033D15A82B2A508D0021B825 /* SlutteApp.swift */,
 				033D15AA2B2A508D0021B825 /* ContentView.swift */,
+				037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */,
 				033D15AC2B2A508E0021B825 /* Assets.xcassets */,
 				033D15AE2B2A508E0021B825 /* Slutte.entitlements */,
 				033D15AF2B2A508E0021B825 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037495E12B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift in Sources */,
 				033D15AB2B2A508D0021B825 /* ContentView.swift in Sources */,
 				033D15A92B2A508D0021B825 /* SlutteApp.swift in Sources */,
 			);
