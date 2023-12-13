@@ -12,6 +12,8 @@
 		033D15AD2B2A508E0021B825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D15AC2B2A508E0021B825 /* Assets.xcassets */; };
 		033D15B12B2A508E0021B825 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D15B02B2A508E0021B825 /* Preview Assets.xcassets */; };
 		037495E12B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */; };
+		03A54C5A2B2A5D4600EBE8CE /* SlutteSnusInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A54C592B2A5D4600EBE8CE /* SlutteSnusInformationView.swift */; };
+		03A54C5C2B2A5DD600EBE8CE /* Snus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A54C5B2B2A5DD600EBE8CE /* Snus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		033D15AE2B2A508E0021B825 /* Slutte.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slutte.entitlements; sourceTree = "<group>"; };
 		033D15B02B2A508E0021B825 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoYouWantToQuitView.swift; sourceTree = "<group>"; };
+		03A54C592B2A5D4600EBE8CE /* SlutteSnusInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlutteSnusInformationView.swift; sourceTree = "<group>"; };
+		03A54C5B2B2A5DD600EBE8CE /* Snus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				033D15A82B2A508D0021B825 /* SlutteApp.swift */,
 				033D15AA2B2A508D0021B825 /* ContentView.swift */,
 				037495E02B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift */,
+				03A54C592B2A5D4600EBE8CE /* SlutteSnusInformationView.swift */,
+				03A54C5B2B2A5DD600EBE8CE /* Snus.swift */,
 				033D15AC2B2A508E0021B825 /* Assets.xcassets */,
 				033D15AE2B2A508E0021B825 /* Slutte.entitlements */,
 				033D15AF2B2A508E0021B825 /* Preview Content */,
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A54C5C2B2A5DD600EBE8CE /* Snus.swift in Sources */,
 				037495E12B2A50F90012EC0F /* WhatDoYouWantToQuitView.swift in Sources */,
+				03A54C5A2B2A5D4600EBE8CE /* SlutteSnusInformationView.swift in Sources */,
 				033D15AB2B2A508D0021B825 /* ContentView.swift in Sources */,
 				033D15A92B2A508D0021B825 /* SlutteApp.swift in Sources */,
 			);
